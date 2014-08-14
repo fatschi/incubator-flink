@@ -161,8 +161,7 @@ under the License.
 				<include>*.jar</include>
 			</includes>
 			<excludes>
-				<exclude>flink-java-examples-${project.version}.jar</exclude>
-				<exclude>flink-java-examples-${project.version}-sources.jar</exclude>
+				<exclude>java-example.jar</exclude>
 			</excludes>
 		</fileSet>
 

@@ -46,8 +46,10 @@ under the License.
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<finalName>java-example</finalName>
+				</configuration>
 				<executions>
-				
 					<!-- KMeans -->
 					<execution>
 						<id>KMeans</id>
@@ -58,7 +60,6 @@ under the License.
 
 						<configuration>
 							<classifier>KMeans</classifier>
-
 							<archive>
 								<manifestEntries>
 									<program-class>org.apache.flink.example.java.clustering.KMeans</program-class>
